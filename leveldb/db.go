@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <nxgtw@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -17,14 +17,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/journal"
-	"github.com/syndtr/goleveldb/leveldb/memdb"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/table"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/nxgtw/goleveldb/leveldb/errors"
+	"github.com/nxgtw/goleveldb/leveldb/iterator"
+	"github.com/nxgtw/goleveldb/leveldb/journal"
+	"github.com/nxgtw/goleveldb/leveldb/memdb"
+	"github.com/nxgtw/goleveldb/leveldb/opt"
+	"github.com/nxgtw/goleveldb/leveldb/storage"
+	"github.com/nxgtw/goleveldb/leveldb/table"
+	"github.com/nxgtw/goleveldb/leveldb/util"
 )
 
 // DB is a LevelDB database.

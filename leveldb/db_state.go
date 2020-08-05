@@ -1,4 +1,4 @@
-// Copyright (c) 2013, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2013, Suryandaru Triandana <nxgtw@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syndtr/goleveldb/leveldb/journal"
-	"github.com/syndtr/goleveldb/leveldb/memdb"
-	"github.com/syndtr/goleveldb/leveldb/storage"
+	"github.com/nxgtw/goleveldb/leveldb/journal"
+	"github.com/nxgtw/goleveldb/leveldb/memdb"
+	"github.com/nxgtw/goleveldb/leveldb/storage"
 )
 
 var (
